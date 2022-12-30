@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Company/lib-project/update/src/main/res/drawable/self_blue_fifty_cor_normal_bac.xml" value="0.199" />
+        <entry key="..\:/Company/lib-project/update/src/main/res/drawable/self_green_fifty_cor_normal_bac.xml" value="0.199" />
+        <entry key="..\:/Company/lib-project/update/src/main/res/layout/dialog_update.xml" value="0.3494791666666667" />
+        <entry key="..\:/SenseProject/android/lib-project/app/src/main/res/layout/activity_main.xml" value="0.3441025641025641" />
+        <entry key="..\:/SenseProject/android/lib-project/crashapp/src/main/res/drawable/self_error_style_drawable.xml" value="0.224" />
+        <entry key="..\:/SenseProject/android/lib-project/crashapp/src/main/res/layout/activity_crash.xml" value="0.3494791666666667" />
+        <entry key="..\:/SenseProject/android/lib-project/update/src/main/res/drawable/bg_white_radius_6.xml" value="0.224" />
+        <entry key="..\:/SenseProject/android/lib-project/update/src/main/res/drawable/self_blue_fifty_cor_normal_bac.xml" value="0.224" />
+        <entry key="..\:/SenseProject/android/lib-project/update/src/main/res/drawable/self_green_fifty_cor_normal_bac.xml" value="0.224" />
+        <entry key="..\:/SenseProject/android/lib-project/update/src/main/res/drawable/self_red_fifty_cor_normal_bac.xml" value="0.224" />
+        <entry key="..\:/SenseProject/android/lib-project/update/src/main/res/drawable/self_white_bottom_ten_cor_normal_bac.xml" value="0.224" />
+        <entry key="..\:/SenseProject/android/lib-project/update/src/main/res/layout/dialog_update.xml" value="0.3441025641025641" />
+        <entry key="..\:/SenseProject/android/lib-project/update/src/main/res/layout/dialog_update_red.xml" value="0.3494791666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

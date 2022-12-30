@@ -1,0 +1,27 @@
+apply plugin: 'maven'
+ext {
+    PUBLISH_GROUP_ID = 'com.lvfu.appupdate'//包名，换成自己的
+    PUBLISH_ARTIFACT_ID = project.name //名称,一般是app，也可以自己换
+    VERSION_CODE = 1
+    VERSION_NAME = "1.0" //版本
+}
+uploadArchives {
+    repositories.mavenDeployer {
+        def localMavenRepo = 'file://' + new File(rootDir.parentFile, 'ToolkitMaven').absolutePath //这里会将maven仓库生成到你项目目录层ToolkitMaven文件夹中，具体目录可以自己改
+        repository(url: localMavenRepo)
+        pom.project {
+            groupId project.PUBLISH_GROUP_ID
+            artifactId project.PUBLISH_ARTIFACT_ID
+            version project.VERSION_NAME
+        }
+    }
+}
+
+//以下代码会生成jar包源文件
+task androidSourcesJar(type: Jar) {
+    classifier = 'sources'
+    from android.sourceSets.main.java.sourceFiles
+}
+artifacts {
+    archives androidSourcesJar
+}

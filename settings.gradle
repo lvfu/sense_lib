@@ -1,0 +1,4 @@
+
+include ':app'
+include ':update'
+include ':crashapp'
